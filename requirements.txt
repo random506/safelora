@@ -19,5 +19,6 @@ numpy
 tqdm
 
 # --- 安全评估相关可能需要的潜在依赖 ---
-# (基于你的代码引用了 safety_evaluation)
 scikit-learn
+dotenv
+modelscope
