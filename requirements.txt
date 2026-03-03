@@ -1,0 +1,23 @@
+# --- 基础环境与镜像源设置 ---
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# --- 深度学习核心库 (针对 RTX 4080 优化) ---
+torch==2.4.0
+torchvision==0.19.0
+torchaudio==2.4.0
+
+# --- 大模型与微调框架 ---
+transformers
+peft
+datasets
+accelerate
+sentencepiece
+
+# --- 数据处理与实用工具 ---
+pandas
+numpy
+tqdm
+
+# --- 安全评估相关可能需要的潜在依赖 ---
+# (基于你的代码引用了 safety_evaluation)
+scikit-learn
