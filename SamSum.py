@@ -26,7 +26,8 @@ import json
 # In[2]:
 
 
-path = '../LLM_Models/llama-2-7b-chat-fp16'
+#path = '../LLM_Models/llama-2-7b-chat-fp16'
+path = '/root/autodl-tmp/LLM_Models/llama-2-7b-hf'
 tokenizer = AutoTokenizer.from_pretrained(path)
 model = AutoModelForCausalLM.from_pretrained(path)
 model = PeftModel.from_pretrained(model, './finetuned_models/samsumBad-7b-fp16-peft-seed-42',torch_dtype=torch.float16)

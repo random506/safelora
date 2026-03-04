@@ -23,10 +23,10 @@ def download_from_modelscope():
     # 注意：ModelScope 的模型 ID 格式通常与 HF 略有不同
     models_to_download = [
         # 对应 Llama-2-7b-hf
-        ("shakechen/Llama-2-7b-hf", "/root/autodl-tmp/LLM_Models/llama-2-7b-hf"),
+        #("shakechen/Llama-2-7b-hf", "/root/autodl-tmp/LLM_Models/llama-2-7b-hf"),
         
         # 如果需要下载对齐模型，取消下面这行的注释
-        # ("LLM-Research/Llama-2-7b-chat-hf", "./LLM_Models/llama-2-7b-chat-hf"),
+        ("shakechen/Llama-2-7b-chat-hf", "/root/autodl-tmp/LLM_Models/llama-2-7b-chat-hf"),
     ]
 
     for model_id, local_dir in models_to_download:

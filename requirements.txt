@@ -12,6 +12,7 @@ peft
 datasets
 accelerate
 sentencepiece
+trl
 
 # --- 数据处理与实用工具 ---
 pandas
